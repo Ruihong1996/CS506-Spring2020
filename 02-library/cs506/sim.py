@@ -1,12 +1,12 @@
 
 def euclidean_dist(x, y):
-<<<<<<< HEAD
+
     if len(x) != len(y):
         raise ValueError("not good values")
     res = 0
     for i in range(len(x)):
         res += (x[i] - y[i])**2
-=======
+
     """
     Calculate the euclidean distance between x and y
     """
@@ -19,7 +19,7 @@ def euclidean_dist(x, y):
     for i in range(len(x)):
         res += (x[i] - y[i])**2
 
->>>>>>> upstream/master
+
     return res**(1/2)
 
 def manhattan_dist(x, y):
