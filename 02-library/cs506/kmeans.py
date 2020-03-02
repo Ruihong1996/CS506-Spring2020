@@ -35,7 +35,6 @@ def update_centers(dataset, assignments):
 
     return new_centers
 
-
 def assign_points(data_points, centers):
     """
     """
@@ -57,7 +56,6 @@ def distance(a, b):
     Returns the Euclidean distance between a and b
     """
     return sum([(a - b) ** 2 for a, b in zip(a, b)]) ** 0.5
-
 
 def distance_squared(a, b):
     return distance(a, b) ** 2
